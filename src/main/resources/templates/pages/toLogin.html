@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" th:inline="javascript">
+	    /*<![CDATA[*/
+	    var basePath = /*[[@{/}]]*/;
+	    /*]]>*/
+</script>
+<script language="javascript">
+	alert('未登录');
+    window.location.href = basePath + "/toLogin.do";
+</script>
+</head>
+<body>
+</body>
+</html>
